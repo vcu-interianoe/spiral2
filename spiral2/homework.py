@@ -4,7 +4,7 @@ def spiralize(size, n=1):
     current_value = n
     reset = 0
 
-    while current_value < pow(size, n) + n:
+    while current_value < pow(size, n) + n-1:
         current_value += y
         x += current_value
         reset += 1
