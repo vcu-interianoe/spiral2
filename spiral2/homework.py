@@ -3,7 +3,6 @@ def spiralize(size, n=1):
     y = 2
     current_value = n
     reset = 0
-
     while current_value < pow(size, 2) + n - 1:
         current_value += y
         x += current_value
