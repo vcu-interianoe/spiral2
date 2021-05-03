@@ -10,6 +10,6 @@ def spiralize(size, n=1):
         if reset == 4:
             y += 2
             reset = 0
-    return current_value
+    return x
 
 print(spiralize(501,15))
